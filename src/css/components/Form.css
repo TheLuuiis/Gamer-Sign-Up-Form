@@ -1,0 +1,16 @@
+.container__form {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.form {
+    width: 550px;
+    height: 100%;
+    padding: 30px;
+    border: 1px solid white;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+:root {
+    --textBlack: hsl(214 37% 4%);
+    --textWhite: hsl(204 60% 97%);
+    --textGreen: hsl(77 67% 39%);
+    --textGray: hsl(211 14% 50%);
+    --borderGreen: hsl(77 90% 59%);
+    --backgroundNavy: hsl(214 60% 2%);
+    --backgroundBlack: hsl(214 37% 4%);
+    --backgroundGreen: hsl(77 90% 59%);
+    --fontFamilyOrbitron: "Orbitron", sans-serif;
+    --fontFamilyJetBrains: "JetBrains Mono", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backgroundNavy);
+}
+
+.app {
+    width: 1350px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid white;
+}
